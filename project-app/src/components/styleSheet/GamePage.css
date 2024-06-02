@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+
+
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  .guess-div {
+    display: table;
+    width: 700px;
+  }
+  .alphabet-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px; /* Adjust the gap as needed */
+  }
+  
+  .alphabet-buttons button {
+    margin: 5px;
+  }
+   
+  input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 20px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    margin-top: 10px;
+    color: #d9534f;
+  }
+  
+  .displayed-movie {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+  .text-box {
+    width: 80px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+  }
+
+  .restart{
+    border-radius: 50px;
+    font-weight: 700;
+    width: 100px
+  }
+
+  .exit{
+    border-radius: 50px;
+    font-weight: 700;
+    width: 100px
+  }
+
+  .movie-img img{
+    width: 25px;
+  }
+  
